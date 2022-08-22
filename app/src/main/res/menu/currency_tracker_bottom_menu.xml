@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popular_currencies_fragment"
+        android:icon="@drawable/ic_chart_up"
+        android:title="@string/popular_menu_item" />
+
+    <item
+        android:id="@+id/favorite_currencies_fragment"
+        android:icon="@drawable/ic_filled_favorite"
+        android:title="@string/favorite_menu_item" />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/currency_tracker_navigation"
+    app:startDestination="@id/popular_currencies_fragment">
+
+    <fragment
+        android:id="@+id/favorite_currencies_fragment"
+        android:name="com.example.currencytracker.feature.currency.favorites.presentation.FavoriteCurrenciesFragment"
+        android:label="fragment_favorite_currenceis"
+        tools:layout="@layout/fragment_favorite_currenceis" />
+    <fragment
+        android:id="@+id/popular_currencies_fragment"
+        android:name="com.example.currencytracker.feature.currency.popular.presentation.PopularCurrenciesFragment"
+        android:label="fragment_popular_currencies"
+        tools:layout="@layout/fragment_popular_currencies"/>
+
+    <fragment
+        android:id="@+id/sort_settings_fragment"
+        android:name="com.example.currencytracker.feature.settings.SortSettingsFragment"
+        android:label="fragment_sort_settings" />
+
+    <action
+        android:id="@+id/open_sort_settings_fragment"
+        app:destination="@id/sort_settings_fragment"/>
+
+</navigation>

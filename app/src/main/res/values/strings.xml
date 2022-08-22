@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CurrencyTracker</string>
+
+    <string name="database_name">currency_tracker_database</string>
+
+    // PopularCurrenciesFragment
+    <string name="enter_base_value_hint">Enter base value</string>
+    <string name="poopular_exchange_rates_title">Exchange rates</string>
+
+
+    // BottomNavigation
+    <string name="popular_menu_item">Popular</string>
+    <string name="favorite_menu_item">Favorite</string>
+
+    // SortSettingsFragment
+    <string name="sort_settings_title">Sort settings</string>
+    <string name="sorting_category_name_one">Alphabetical sorting</string>
+    <string name="sorting_category_name_two">Value sorting</string>
+    <string name="by_ascending_title">by ascending</string>
+    <string name="by_descending_title">by descending</string>
+    <string name="alphabetical_sort_by_asc_key">alphabetical_sort_by_asc_key</string>
+    <string name="alphabetical_sort_by_desc_key">alphabetical_sort_by_desc_key</string>
+    <string name="value_sort_by_asc_key">value_sort_by_asc_key</string>
+    <string name="value_sort_by_desc_key">value_sort_by_desc_key</string>
+
+    // FavoriteCurrenciesFragment
+    <string name="favorite_currencies_charts_title">Favorite</string>
+
+    // Error message
+    <string name="something_went_wrong_error_message">Something went wrong</string>
+    <string name="try_again_error_message">Please try again</string>
+    <string name="wrong_currency_symbol_message" tools:ignore="ExtraTranslation">Looks like you entered the wrong currency symbol</string>
+
+
+</resources>

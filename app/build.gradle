@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.kapt'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.currencytracker"
+        minSdk 24
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "BASE_URL", "\"https://api.apilayer.com/exchangerates_data/\""
+        buildConfigField "String", "API_KEY", "\"1lk5BsKdKeDtqaUCbuMtOQlF4yV7nT5H\""
+        buildConfigField "long", "CONNECT_TIMEOUT", 30_000 + "L"
+        buildConfigField "long", "READ_TIMEOUT", 30_000 + "L"
+        buildConfigField "long", "WRITE_TIMEOUT", 30_000 + "L"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // Core
+    implementation libs.core.coreKtx
+
+    // AndroidX
+    implementation libs.android.appCompat
+    implementation libs.navigationComponent.navigationFragmentKtx
+    implementation libs.navigationComponent.navigationUiKtx
+
+    // UI
+    implementation libs.ui.material
+    implementation libs.ui.constraintLayout
+    implementation libs.ui.recyclerView
+    implementation libs.ui.viewBinding
+    implementation libs.ui.preference
+    implementation libs.ui.preferenceLegacy
+    implementation libs.ui.swipeLayout
+
+    // DI
+    implementation libs.di.dagger
+    implementation libs.di.daggerAndroid
+    implementation 'androidx.preference:preference:1.2.0'
+    kapt libs.di.daggerCompiler
+
+    // Network
+    implementation libs.network.retrofit
+    implementation libs.network.loggingInterceptor
+    implementation libs.network.gsonConverter
+
+    // Lifecycle
+    implementation libs.architectureComponents.lifecycleRuntime
+    implementation libs.architectureComponents.lifecycleExtensions
+
+    // Room
+    implementation libs.room.roomRuntime
+    implementation libs.room.roomKtx
+    kapt libs.room.roomCompiler
+
+    // Adapter Delegate Library
+    implementation libs.utils.adapterdelegatesViewbindig
+}

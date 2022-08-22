@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_settings_preferences_keys">
+        <item>@string/alphabetical_sort_by_asc_key</item>
+        <item>@string/alphabetical_sort_by_desc_key</item>
+        <item>@string/value_sort_by_asc_key</item>
+        <item>@string/value_sort_by_desc_key</item>
+    </string-array>
+</resources>

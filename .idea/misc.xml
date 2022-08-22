@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1525" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_filled_favorite.xml" value="0.214" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_filled_star.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_outline__star.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_outline_favorite.xml" value="0.214" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_outline_star.xml" value="0.197" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/drawable/ic_sort.xml" value="0.19" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/font/currency_tracker_headers_font.xml" value="0.25092592592592594" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout-v24/settings_toolbar.xml" value="0.3088768115942029" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/error_layout.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/fragment_favorite_currenceis.xml" value="0.23314606741573032" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/fragment_popular_currencies.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/fragment_sort_settings.xml" value="0.33559782608695654" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/item_popular_currencies.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/preference_category_header.xml" value="0.35052083333333334" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/preference_category_value_header.xml" value="0.3494791666666667" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/request_error_layout.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/layout/settings_toolbar.xml" value="0.33559782608695654" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/menu/currency_tracker_bottom_menu.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/xml/backup_rules.xml" value="0.34646739130434784" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/xml/data_extraction_rules.xml" value="0.4081508515815085" />
+        <entry key="..\:/AndroidStudioProjects/CurrencyTracker/app/src/main/res/xml/sort_settings_fragment.xml" value="0.33559782608695654" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

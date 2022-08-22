@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <PreferenceCategory
+        android:layout="@layout/preference_category_alphabetic_header">
+
+        <CheckBoxPreference
+            android:key="@string/alphabetical_sort_by_asc_key"
+            android:title="@string/by_ascending_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/alphabetical_sort_by_desc_key"
+            android:title="@string/by_descending_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_value_header">
+
+        <CheckBoxPreference
+            
+            android:key="@string/value_sort_by_asc_key"
+            android:title="@string/by_ascending_title"/>
+
+        <CheckBoxPreference
+            android:key="@string/value_sort_by_desc_key"
+            android:title="@string/by_descending_title"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

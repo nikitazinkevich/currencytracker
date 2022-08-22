@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultTextInputLayout">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/dp_20</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/dp_20</item>
+        <item name="boxCornerRadiusTopStart">@dimen/dp_20</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/dp_20</item>
+        <item name="boxStrokeWidth">@dimen/dp_0</item>
+        <item name="boxStrokeWidthFocused">@dimen/dp_0</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="DefaultEditText">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:padding">@dimen/dp_0</item>
+    </style>
+
+
+    <style name="DefaultEditText.TextInputType">
+        <item name="android:inputType">text</item>
+        <item name="maxLines">1</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="DefaultEditText.TextInputType.TextSize_18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DefaultHeaders">
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="PreferenceHeaders">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DefaultText">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>
