@@ -16,7 +16,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "BASE_URL", "\"https://api.apilayer.com/exchangerates_data/\""
-        buildConfigField "String", "API_KEY", "\"1lk5BsKdKeDtqaUCbuMtOQlF4yV7nT5H\""
+        buildConfigField "String", "API_KEY", "\"pqrZEov1YuNKa8s1jOVExzgCLMD4k7hv\""
         buildConfigField "long", "CONNECT_TIMEOUT", 30_000 + "L"
         buildConfigField "long", "READ_TIMEOUT", 30_000 + "L"
         buildConfigField "long", "WRITE_TIMEOUT", 30_000 + "L"
