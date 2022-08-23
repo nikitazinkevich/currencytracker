@@ -1,4 +1,4 @@
-package com.example.currencytracker.feature.currency.favorites.domain.interactor
+package com.example.currencytracker.feature.currency.favorites.domain.usecases
 
 import com.example.currencytracker.feature.currency.favorites.domain.FavoriteCurrenciesRepository
 import kotlinx.coroutines.Dispatchers

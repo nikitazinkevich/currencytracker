@@ -3,7 +3,7 @@ package com.example.currencytracker.feature.currency.favorites.presentation.view
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.currencytracker.feature.currency.favorites.domain.interactor.GetFavoriteCurrenciesUseCase
+import com.example.currencytracker.feature.currency.favorites.domain.usecases.GetFavoriteCurrenciesUseCase
 import com.example.currencytracker.feature.currency.popular.domain.model.Currency
 import com.example.currencytracker.feature.currency.popular.presentation.viewmodel.PopularCurrenciesViewModel
 import dagger.assisted.AssistedFactory

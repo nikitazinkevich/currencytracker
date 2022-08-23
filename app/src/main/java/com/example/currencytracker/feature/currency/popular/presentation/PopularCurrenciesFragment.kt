@@ -119,7 +119,7 @@ class PopularCurrenciesFragment :
             LoadingState.LOADED -> {
                 with(binding) {
                     popularCurrenciesRecyclerView.show()
-                    mainFragmentLayout.show()
+                    popularCurrenciesFragmentLayout.show()
                     progressIndicatorLayout.hide()
                     networkErrorLayout.root.hide()
                     popularCurrenciesRequestErrorLayout.root.hide()
@@ -135,7 +135,7 @@ class PopularCurrenciesFragment :
             }
             LoadingState.EXCEPTION -> {
                 with(binding) {
-                    mainFragmentLayout.hide()
+                    popularCurrenciesFragmentLayout.hide()
                     progressIndicatorLayout.hide()
                     popularCurrenciesRequestErrorLayout.root.hide()
                     networkErrorLayout.root.show()
@@ -151,7 +151,7 @@ class PopularCurrenciesFragment :
     private fun initKeyboardListener() {
         KeyboardEventListener(binding, viewLifecycleOwner) { isOpen ->
             if (!isOpen) {
-                binding.editText.refreshPopularCurrencies()
+                binding.baseCurrencyEditText.refreshPopularCurrencies()
             }
         }
     }

@@ -7,18 +7,17 @@
     android:layout_height="match_parent">
 
     <FrameLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/main_fragment_layout"
+            android:id="@+id/popular_currencies_fragment_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/purple_200">
 
             <com.google.android.material.appbar.MaterialToolbar
-                android:id="@+id/currency_tracker_app_bar"
+                android:id="@+id/popular_currencies_app_bar"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_60"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +31,7 @@
                     android:layout_marginEnd="@dimen/dp_20">
 
                     <com.google.android.material.textfield.TextInputLayout
-                        android:id="@+id/edit_text_layout"
+                        android:id="@+id/base_currency_input_layout"
                         style="@style/DefaultTextInputLayout"
                         android:layout_width="@dimen/dp_0"
                         android:layout_height="wrap_content"
@@ -43,7 +42,7 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/editText"
+                            android:id="@+id/base_currency_edit_text"
                             style="@style/DefaultEditText.TextInputType.TextSize_18"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/dp_40"
@@ -59,9 +58,9 @@
                         android:layout_height="@dimen/dp_30"
                         android:layout_marginEnd="@dimen/dp_20"
                         android:src="@drawable/ic_sort"
-                        app:layout_constraintBottom_toBottomOf="@+id/edit_text_layout"
+                        app:layout_constraintBottom_toBottomOf="@+id/base_currency_input_layout"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="@+id/edit_text_layout"
+                        app:layout_constraintTop_toTopOf="@+id/base_currency_input_layout"
                         tools:ignore="ContentDescription" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -72,7 +71,7 @@
                 android:layout_height="@dimen/dp_0"
                 app:cardCornerRadius="@dimen/dp_20"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/currency_tracker_app_bar">
+                app:layout_constraintTop_toBottomOf="@+id/popular_currencies_app_bar">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/popular_currencies_layout"

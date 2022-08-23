@@ -5,7 +5,7 @@ import com.example.currencytracker.di.FragmentScope
 import com.example.currencytracker.feature.currency.favorites.data.mapper.FavoriteCurrencyToCurrencyMapper
 import com.example.currencytracker.feature.currency.favorites.data.repository.FavoriteCurrenciesRepositoryImpl
 import com.example.currencytracker.feature.currency.favorites.domain.FavoriteCurrenciesRepository
-import com.example.currencytracker.feature.currency.favorites.domain.interactor.GetFavoriteCurrenciesUseCase
+import com.example.currencytracker.feature.currency.favorites.domain.usecases.GetFavoriteCurrenciesUseCase
 import dagger.Module
 import dagger.Provides
 
